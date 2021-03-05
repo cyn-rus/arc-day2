@@ -1,0 +1,28 @@
+{
+    "caKru": [
+        {
+            "nama": "Kevin Ryan",
+            "tanggal": "1 Maret 2021",
+            "topik": "Film terlucu yang pernah ditonton itu Pulp Fiction",
+            "foto": "../assets/cakru.jpg"
+        },
+        {
+            "nama": "Kinantan Arya Bagaspati",
+            "tanggal": "1 Maret 2021",
+            "topik": "Kalo punya duit 100 juta, mau ditabung aja sama dia",
+            "foto": "../assets/cakru.jpg"
+        },
+        {
+            "nama": "Jason Stanley Yoman",
+            "tanggal": "1 Maret 2021",
+            "topik": "Kalo punya 3 permintaan, katanya mau superpower ngontrol orang, ga kehabisan energi walaupun ga tidur, sama unlimited money",
+            "foto": "../assets/cakru.jpg"
+        },
+        {
+            "nama": "Michael Philip Gunardi",
+            "tanggal": "1 Maret 2021",
+            "topik": "Kebiasaan buruknya itu boros",
+            "foto": "../assets/cakru.jpg"
+        }
+    ]
+}
