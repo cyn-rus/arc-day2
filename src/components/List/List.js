@@ -4,7 +4,9 @@ import './List.css';
 const List = ({nama}) => {
   return(
     <div className="nama">
-      {nama}
+      <span>
+        {nama}
+      </span>
     </div>
   ) 
 }

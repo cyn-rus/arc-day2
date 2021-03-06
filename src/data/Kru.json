@@ -5,6 +5,12 @@
             "tanggal": "1 Maret 2021",
             "topik": "Ga bisa bedain kiri sama kanan",
             "foto": "../assets/kru.jpg"
+        },
+        {
+            "nama": "Jesson Gosal Yo",
+            "tanggal": "1 Maret 2021",
+            "topik": "Pernah magang dari closrec",
+            "foto": "../assets/kru.jpg"
         }
     ]
 }

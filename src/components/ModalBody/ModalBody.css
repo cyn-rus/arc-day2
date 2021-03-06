@@ -3,5 +3,45 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
+.NamaFakta {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+    color: #0a043c;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+p1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.fotoKeterangan {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    min-width: 70%;
+    font-family: monospace;
+    font-size: large;
+    color: #0a043c;
+}
+
+h2 {
+    margin-top: -10px;
+}
+
+.foto {
+    width: 90%;
 }

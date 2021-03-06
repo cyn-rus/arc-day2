@@ -4,6 +4,7 @@ import { caKru } from "./data/CaKru.json";
 import { kru } from "./data/Kru.json";
 import List from "./components/List/List.js";
 import ModalBody from "./components/ModalBody/ModalBody.js";
+import "./App.css";
 
 const App = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -20,10 +21,15 @@ const App = () => {
   };
 
   return (
+    <div className="all">
     <>
-    <div>
+      <div className="identitas">
+          <p1><span>Cynthia Rusadi</span></p1>
+          <p2><span>13519118</span></p2>
+      </div>
 
-      <div className="JudulCaKru">Ca-Kru</div>
+
+      <div className="JudulCaKru"><h1>Ca-Kru</h1></div>
       {
         caKru.map((nameCaKru, index) => {
           return (
@@ -38,7 +44,7 @@ const App = () => {
         })
       }
 
-      <div className="JudulKru">Kru</div>
+      <div className="JudulKru"><h1>Kru</h1></div>
       {
         kru.map((namaKru, index) => {
           return (
@@ -55,16 +61,15 @@ const App = () => {
         })
       }
 
-    </div>
-
     <Modal isOpen={modalIsOpen}>
-      <button onClick={closeModal}> pencet gua </button>
+      <button onClick={closeModal} className="button">Close</button>
       {
         selectedCaKru && <ModalBody {...selectedCaKru}/>
       }
     </Modal>
 
     </>
+    </div>
   )
 };
 
