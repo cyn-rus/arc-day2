@@ -9,7 +9,7 @@ const ModalBody = ({nama, tanggal, topik, foto}) => {
           <p1>Fakta Unik: {topik}</p1>
         </div>
         <div className="fotoKeterangan">
-          <img src={foto} className="foto" />
+          <img src={foto} className="foto" alt="Foto wawancara" />
           <p2>Tanggal Wawancara: {tanggal}</p2>
         </div>
       </div>
