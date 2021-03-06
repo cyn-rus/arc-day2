@@ -1,6 +1,6 @@
 .all {
   background-color: #a3ddcb;
-  height: 613px;
+  min-height: screen;
 }
 
 .identitas {
